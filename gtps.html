@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DELUCY PS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(-45deg, #0f0c29, #302b63, #24243e, #1e3c72, #2a5298);
+      background-size: 400% 400%;
+      animation: gradientBG 15s ease infinite;
+      color: white;
+      text-align: center;
+    }
+
+    /* Animasi background */
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header {
+      padding: 60px 20px 20px;
+      background: rgba(0, 0, 0, 0.35);
+      border-bottom: 2px solid rgba(255,255,255,0.2);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .logo {
+      font-size: 3rem;
+      font-weight: 700;
+      color: #00e6ff;
+      animation: glow 2s infinite alternate, fadeIn 2s ease-in-out;
+      text-shadow: 0 0 20px #00e6ff, 0 0 40px #00aaff;
+    }
+
+    .status {
+      margin-top: 15px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #00ff99;
+      text-shadow: 0 0 10px #00ff99;
+      animation: pulse 1.5s infinite alternate;
+    }
+
+    .container {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+    }
+
+    /* Tombol Glassmorphism + Neon Glow */
+    .btn {
+      padding: 14px 40px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 40px;
+      background: rgba(255, 255, 255, 0.08);
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+      box-shadow: 0 0 15px rgba(0, 238, 255, 0.6);
+      max-width: 90%;
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      animation: neonGlow 2s infinite alternate;
+    }
+
+    .btn:hover {
+      transform: scale(1.08);
+      background: rgba(255, 255, 255, 0.15);
+      box-shadow: 0 0 25px #00f7ff, 0 0 50px #00bbff, 0 0 75px #0099ff;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      font-size: 0.9rem;
+      background: rgba(0, 0, 0, 0.3);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    /* Animasi */
+    @keyframes glow {
+      from { text-shadow: 0 0 15px #00e6ff, 0 0 30px #00aaff; }
+      to { text-shadow: 0 0 25px #00f7ff, 0 0 45px #00bbff; }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      from { opacity: 0.7; transform: scale(1); }
+      to { opacity: 1; transform: scale(1.1); }
+    }
+
+    @keyframes neonGlow {
+      from { box-shadow: 0 0 10px #00f7ff, 0 0 20px #00bbff; }
+      to { box-shadow: 0 0 25px #00f7ff, 0 0 50px #00bbff, 0 0 75px #0099ff; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🔥 DELUCY PS 🔥</div>
+    <div class="status">🟢 Server Status: ONLINE</div>
+  </header>
+
+  <main>
+    <div class="container">
+      <a href="https://www.mediafire.com/file/qp93v68x7ccw6gn/DELUCYPS.txt/file" class="btn">📂 Download HOST DELUCY</a>
+      <a href="https://skyhosting.lol/ptunnel.txt" class="btn">🔗 Copy PTUNNEL</a>
+      <a href="https://skyhosting.lol/iOS" class="btn">📱 Copy iOS</a>
+      <a href="https://chat.whatsapp.com/Dn5QBy9DIU6LyEUWoMsiHu?mode=ac_t" class="btn">💬 Group WhatsApp DELUCY PS</a>
+      <a href="https://discord.gg/BuW2Vrqhkz" class="btn">🎧 Discord DELUCY PS</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 DELUCY PS - All Rights Reserved
+  </footer>
+</body>
+  </html>
+  
